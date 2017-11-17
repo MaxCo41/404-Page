@@ -3,7 +3,6 @@ body {
     background-position: center;
     background-repeat: repeat;
     background-attachment: fixed;
-    margin: auto;
     text-align: center;
 }
 .image {
@@ -17,7 +16,6 @@ body {
   text-align: center;
   font-size: 30px;
   display: block;
-  vertical-align: text-top;
   margin-top: inherit;
 }
 .bouton a {
@@ -25,10 +23,11 @@ display:block;
 width:150px;
 line-height:50px;
 text-align:center;
-vertical-align:top;
+vertical-align: bottom;
 background:url(http://css.mammouthland.net/images/boutonnoir.png) no-repeat;
 color:white;
 text-decoration:none;
+
 
 }
 .bouton a:hover {
