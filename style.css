@@ -7,7 +7,7 @@ body {
     text-align: center;
 }
 .image {
-   text-align: center;
+   text-align: top;
    margin: auto;
    vertical-align: middle;
    display: block;
@@ -17,5 +17,19 @@ body {
   text-align: center;
   font-size: 30px;
   display: block;
+  vertical-align: text-top;
+  margin-top: inherit;
+}
+.bouton a {
+display:block;
+width:150px;
+line-height:50px;
+text-align:center;
+vertical-align:top;
+background:url(http://css.mammouthland.net/images/boutonnoir.png) no-repeat;
+color:white;
+text-decoration:none;
 
 }
+.bouton a:hover {
+background:url(http://css.mammouthland.net/images/boutonnoir2.png) no-repeat;
