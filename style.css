@@ -10,13 +10,16 @@ body {
    margin: auto;
    vertical-align: middle;
    display: block;
-   height: 430px;
+   height: 330px;
+   border-radius: 40%;
+   border: 3px black solid;
 }
 .texte {
   text-align: center;
   font-size: 30px;
   display: block;
   margin-top: inherit;
+  color: red;
 }
 .bouton a {
 display:block;
@@ -27,6 +30,7 @@ vertical-align: bottom;
 background:url(http://css.mammouthland.net/images/boutonnoir.png) no-repeat;
 color:white;
 text-decoration:none;
+margin: auto;
 
 
 }
